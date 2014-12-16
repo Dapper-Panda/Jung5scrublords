@@ -1,0 +1,37 @@
+/* http://paletton.com/#uid=c2U0t0U150kraibpGwapGwas86as86a */
+/* Greens 04250D 106C28 26BF4E     OYellows 312506 916E16 FFC532     YOranges 312206 916616 FFB732     ROranges 311906 914B16 FF8D32 */
+
+/* General */
+body {margin:0; padding:0; background-image:url("http://img4.wikia.nocookie.net/__cb20140624075820/leagueoflegends/images/2/28/Summoners_Rift.jpg"); background-attachment:fixed; font-family:comic sans msc;}
+a {text-decoration:none}
+
+/* Header */
+#header {width:1920px; margin:0; padding:0; background:#312506; height:50px; position:fixed; border-bottom:2.5px solid #106C28;}
+#nav ul div a:active {font-style:none; color:#FFC532;}
+#nav ul div a {font-style:none; color:#FFC532;}
+#nav ul div .logodiv {margin:0 0 0 303px;}
+#nav ul {padding:0; margin:0;}
+#nav #current div {background:#106C28;}
+#nav ul div {background:#312206; -webkit-transition:background 1s;}
+#nav ul div:hover {-webkit-transition:background 1s; background:#106C28;}
+#nav ul div a div {width:200px; height:50px; float:left; padding:0; margin:0;}
+#nav ul div a div li {display:block; font-size:14px; text-align:center; padding:17px; text-decoration:none;}
+
+/* Content */
+#content {width:1300px; margin:0 auto; padding:0; height:925px; background:#04250D;}
+.banner-home {width:1270; height:185px; margin:0 15px 15px 15px; border-bottom:5px solid #106C28;}
+.banner-home h1 {margin:75px 0 0 15px; color:#FFC532; float:left; font-size:36px;}
+.banner-home p {margin:150px 15px 0 15px; color:#916E16; float:right;}
+.body-left {width:800px; height:685px; margin:0 15px 15px 15px; float:left;}
+.body-left h2 {text-align:center; color:#FFB732}
+.body-left p {color:#916616;}
+.body-left a {color:#914B16; -webkit-transition:color 1s;}
+.body-left a:hover {color:#FF8D32; -webkit-transition:color 1s;}
+.body-right {width:435px; height:685px; margin:0 15px 15px 15px; float:right; border-left:5px solid #106C28;}
+.body-right h2 {text-align:center; color:#FFB732;}
+.body-right ol {text-align:left; color:#916616; text-decoration:none;}
+
+/* Footer */
+#footer {width:auto; height:40px; margin:0 auto; padding:0; background-color:#312506; border-top:2.5px solid #106C28;}
+.footer-left {float:left; color:#FFC532; font-weight:bold; font-size:12px; margin-left:30px;}
+.footer-right {float:right; color:#FFC532; font-weight:bold; font-size:12px; margin-right:30px;}
